@@ -21,10 +21,10 @@ This repository provides a set of utilities for creating publication-ready plots
 ### Stable Version
 - Install directly from the GitHub repository:
     ```bash
-    pip install git+https://github.com/BabaSanfour/plot-enhancing-utils.git
+    pip install git+https://github.com/BabaSanfour/enhancing_plt_utils.git
     ```
   or
-  - Download the repository, navigate to the root, and install using:
+- Download the repository, navigate to the root, and install using:
     ```bash
     pip install .
     ```
