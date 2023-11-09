@@ -8,14 +8,13 @@ setuptools.setup(
     version="0.0.1",
     author="Hamza",
     description="Package with basic some ploting utilities",
-    url="https://github.com/BabaSanfour/plots-utils",
+    url="https://github.com/BabaSanfour/enhancing_plt_utils",
     long_description=long_description,
     packages=setuptools.find_packages(),
-    install_requires=requirements,
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.7',
 )
