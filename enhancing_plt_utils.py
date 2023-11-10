@@ -15,7 +15,7 @@ Tested on:
 
 ---
 
-This utility script provides convenient functions for enhancing Matplotlib plots with LiNCLab colors and improved readability.
+This utility script provides convenient function for enhancing Matplotlib plots and improved readability.
 """
 
 import matplotlib.pyplot as plt
