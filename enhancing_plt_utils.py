@@ -3,7 +3,7 @@ enhanced_plt_utils.py
 
 Author: Hamza Abdelhedi
 
-Last Updated: November 2023
+Last Updated: December 2023
 
 Tested on:
 - Python 3.10.12
@@ -22,7 +22,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def plt_enhancing(
-    color_map_name="viridis",
     label_size="x-large",
     line_width=1.5,
     spines_right=False,
@@ -47,13 +46,11 @@ def plt_enhancing(
     ytick_label_size="x-large",
     ytick_major_size=5.0,
     ytick_major_width=2.0,
-    prop_cycle_length=10,
 ):
     """
     Enhance pyplot defaults to become publication-ready.
 
     Args:
-        color_map_name (str): Name of pyplot colormap to use. Default: "viridis"
         label_size (str): Size of labels. Default: "x-large"
         line_width (float): Width of lines. Default: 1.5
         spines_right (bool): Whether to show right spines. Default: False
@@ -78,7 +75,6 @@ def plt_enhancing(
         ytick_label_size (str): Size of y-axis tick labels. Default: "x-large"
         ytick_major_size (float): Size of y-axis major ticks. Default: 8.0
         ytick_major_width (float): Width of y-axis major ticks. Default: 2.0
-        prop_cycle_length (int): Length of color cycle. Default: 10
 
     Returns:
         None
@@ -109,7 +105,6 @@ def plt_enhancing(
         "ytick.labelsize": ytick_label_size,
         "ytick.major.size": ytick_major_size,
         "ytick.major.width": ytick_major_width,
-        "axes.prop_cycle": plt.cycler(color=plt.cm.get_cmap(color_map_name)(np.linspace(0, 1, prop_cycle_length))),
 
     }
     
