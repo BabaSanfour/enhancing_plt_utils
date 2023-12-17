@@ -107,5 +107,5 @@ def plt_enhancing(
         "ytick.major.width": ytick_major_width,
 
     }
-    
+
     plt.rcParams.update(params)
