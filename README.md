@@ -41,5 +41,8 @@ Contributions are welcome! If you would like to contribute to the development of
 
 This repository will soon include utilities for handling sensor and source-level data using the Python MNE (Magnetoencephalography) library. Stay tuned for updates!
 
+## Some usefull links
+[Plotting tutorial](https://www.dataquest.io/blog/making-538-plots/)
+
 ## Acknowledgments
 This project was inspired by [this repository](https://github.com/BabaSanfour/plot-enhancing-utils).
